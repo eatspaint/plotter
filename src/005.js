@@ -10,7 +10,7 @@ const Random = require('canvas-sketch-util/random');
 
 // 8911
 // 423291
-const DEFAULT_SEED = 'abcd';
+const DEFAULT_SEED = '';
 const SEED = DEFAULT_SEED || Random.getRandomSeed();
 console.log(`Seed: ${SEED}`);
 Random.setSeed(SEED);
